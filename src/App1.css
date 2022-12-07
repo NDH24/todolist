@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: darkblue;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Todo-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+}
+
+.Todo-input > * {
+  margin: 10px 20px;
+}
+
+.Todo {
+  border: 4px solid darkorange;
+  border-radius: 12px;
+  padding: 12px 24px 24px;
+  width: 270px;
+}
